@@ -1,8 +1,8 @@
 plugins {
+    id 'groovy'
+    id 'idea'
     id 'net.researchgate.release' version '2.3.4'
 }
-apply plugin: 'groovy'
-apply plugin: 'idea'
 
 repositories {
     mavenCentral()
